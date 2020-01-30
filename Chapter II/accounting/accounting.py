@@ -18,4 +18,4 @@ if __name__ == '__main__':
         # Save data from the file into the variable
         f_data = f.read()
     # Return the sum of all numbers from the file
-    print("Sum of all numbers: ", get_sum(file_name))
+    print("Sum of all numbers: ", get_sum(f_data))
