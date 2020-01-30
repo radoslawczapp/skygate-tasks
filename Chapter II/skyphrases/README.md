@@ -6,11 +6,10 @@ passphrase  -  skyphrase  -  instead  of simply  a  password.  A  skyphrase  con
 words.
 
 For example:
-<ul>
-<li>aa bb cc dd ee is valid.</li>
-<li>aa bb cc dd aa is not valid - the word aa appears more than once.</li>
-<li>aa bb cc dd aaa is valid - aa and aaa count as different words.</li>
-</ul>
+* aa bb cc dd ee is valid.
+* aa bb cc dd aa is not valid - the word aa appears more than once.
+* aa bb cc dd aaa is valid - aa and aaa count as different words.
 
-##### Answer
-Number of valid skyphrases: 383 
+
+#### Answer
+Number of valid skyphrases: `383`
