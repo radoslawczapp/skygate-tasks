@@ -7,6 +7,7 @@ def get_sum(json_string):
 
     # Create a list of all numbers from the file by using list comprehension
     numbers = [int(x) for x in numbers_list]
+    # Return sum of these numbers
     return sum(numbers)
 
 
